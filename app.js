@@ -21,9 +21,10 @@ var handleClick = function(event) {
 setColorBtn.addEventListener('click', handleClick)
 
 var changeColor = function(event){
+  console.log(event)
   event.target.style.backgroundColor = color
 }
 
 pixels.forEach(function(pixel) {
-  pixel.addEventListener('click', changeColor)
+  pixel.addEventListener('mouseover', changeColor)
 })
