@@ -4,18 +4,19 @@
   background-color: blue;
 }
 
-.color {
-}
-
 .square {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background: url('https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg')
+
 }
 
 .pixel {
   width: 20px;
   height: 20px;
   border: 0.5px solid black;
-  background-color: white;
+  /* background-color: white; */
 }
